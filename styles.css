@@ -773,7 +773,7 @@ html, body {
 }
 #mr-1,
 #pi-1 {
-   background: url(img/masters/balabanova.jpg) center 20%/cover no-repeat;
+   background: url(img/masters/balabanova.webp) center 20%/cover no-repeat;
 }
 #ip-1 {
    background: url(img/int-places/02.jpg) top center/cover no-repeat;
@@ -786,7 +786,7 @@ html, body {
 }
 #mr-2,
 #pi-2 {
-   background: url(img/masters/gordon.jpg) center 20%/cover no-repeat;
+   background: url(img/masters/gordon.webp) center 20%/cover no-repeat;
 }
 #im-3 {
    background: url(img/types/3.webp) top center/cover no-repeat;
@@ -796,7 +796,7 @@ html, body {
 }
 #mr-3,
 #pi-3 {
-   background: url(img/masters/primakova.jpg) center 10%/cover no-repeat;
+   background: url(img/masters/primakova.webp) center 10%/cover no-repeat;
 }
 #im-4 {
    background: url(img/types/4.webp) top center/cover no-repeat;
@@ -805,19 +805,19 @@ html, body {
    background: url(img/int-places/04.jpg) center center/cover no-repeat;
 }
 #mr-4 {
-   background: url(img/masters/savchenko.jpg) center 20%/cover no-repeat;
+   background: url(img/masters/savchenko.webp) center 20%/cover no-repeat;
 }
 #pi-4 {
-   background: url(img/masters/savchenko-main.jpg) center 20%/cover no-repeat;
+   background: url(img/masters/savchenko-main.webp) center 20%/cover no-repeat;
 }
 #im-5 {
    background: url(img/types/5.webp) top center/cover no-repeat;
 }
 #mr-5 {
-   background: url(img/masters/torochova.jpg) center 20%/cover no-repeat;
+   background: url(img/masters/torochova.webp) center 20%/cover no-repeat;
 }
 #pi-5 {
-   background: url(img/masters/torochova-main.jpg) center 20%/cover no-repeat;
+   background: url(img/masters/torochova-main.webp) center 20%/cover no-repeat;
 }
 #im-6 {
    background: url(img/types/6.webp) top center/cover no-repeat;
