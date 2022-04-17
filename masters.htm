@@ -12,7 +12,7 @@
       <link rel="stylesheet" href="styles.css">
       <link rel="stylesheet" href="./css/card.css">
       <link rel="stylesheet" href="css/media.css">
-      <!-- <script src="js/jquery-3.6.0.min.js"></script> -->
+      <link rel="stylesheet" href="css/lightgallery.css">
    </head>
    <body>
       <div class="wrapper">
@@ -204,10 +204,22 @@
                                  </div>
                                  <div id="pi-1" class="popup__img"></div>
                               </div>
-                              <div class="popup__gallery">
-
-                              </div>
                               <div class="popup__footer">
+                                 <h2 class="popup__header">Работы мастера:</h2>
+                                 <div id="lightgallery" class="gallery-light">
+                                    <a class="lightgallery__item" href="img/balabanova/work-1.webp">
+                                       <img alt="Валяные игрушки" src="img/balabanova/work-1.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/balabanova/work-2.webp">
+                                       <img alt="Валяные игрушки" src="img/balabanova/work-2.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/balabanova/work-3.webp">
+                                       <img alt="Валяные игрушки" src="img/balabanova/work-3.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/balabanova/work-4.webp">
+                                       <img alt="Валяные игрушки" src="img/balabanova/work-4.webp" />
+                                    </a>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -253,10 +265,22 @@
                                  </div>
                                  <div id="pi-2" class="popup__img"></div>
                               </div>
-                              <div class="popup__gallery">
-                                 
-                              </div>
                               <div class="popup__footer">
+                                 <h2 class="popup__header">Работы мастера:</h2>
+                                 <div id="lightgallery1" class="gallery-light">
+                                    <a class="lightgallery__item" href="img/gordon/work-1.webp">
+                                       <img alt='"Маральник. Алтайская весна"' src="img/gordon/work-1.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/gordon/work-2.webp">
+                                       <img alt='"Янтарная мелодия"' src="img/gordon/work-2.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/gordon/work-3.webp">
+                                       <img alt='"Лоскутное одеяло"' src="img/gordon/work-3.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/gordon/work-4.webp">
+                                       <img alt='"Ангел надежды"' src="img/gordon/work-4.webp" />
+                                    </a>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -293,10 +317,22 @@
                                  </div>
                                  <div id="pi-3" class="popup__img"></div>
                               </div>
-                              <div class="popup__gallery">
-                                 
-                              </div>
                               <div class="popup__footer">
+                                 <h2 class="popup__header">Работы мастера:</h2>
+                                 <div id="lightgallery2" class="gallery-light">
+                                    <a class="lightgallery__item" href="img/primakova/work-1.webp">
+                                       <img alt="Лоскутное шитье" src="img/primakova/work-1.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/primakova/work-2.webp">
+                                       <img alt="Лоскутное шитье" src="img/primakova/work-2.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/primakova/work-3.webp">
+                                       <img alt="Лоскутное шитье" src="img/primakova/work-3.webp" />
+                                    </a>
+                                    <a class="lightgallery__item" href="img/primakova/work-4.webp">
+                                       <img alt="Лоскутное шитье" src="img/primakova/work-4.webp" />
+                                    </a>
+                                 </div>
                               </div>
                            </div>
                         </div>
@@ -394,6 +430,10 @@
             <div class="upper-footer">
                <div class="center">                  
                   <a class="footer-title" href="./index.htm">Мастера Севера</a>
+                  <ul class="footer-list">
+                     <li class="footer-item"><a href="mailto:evil-corporaty@yandex.ru" class="footer-link">evil-corporaty@yandex.ru</a></li>
+                     <li class="footer-item"><a href="tel:79116562686" class="footer-link">+7 (911) 656-26-86</a></li>
+                  </ul>
                </div>
             </div>
          </footer>
@@ -404,6 +444,14 @@
    <script src="js/card.js" defer></script>
    <script>      
       var mixer = mixitup(".masters__row");
+   </script>
+   <script src="js/lightgallery.umd.js"></script>
+   <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'));
+      lightGallery(document.getElementById('lightgallery1'));
+      lightGallery(document.getElementById('lightgallery2'));
+      lightGallery(document.getElementById('lightgallery3'));
+      lightGallery(document.getElementById('lightgallery4'));
    </script>
    </body>
 </html>
